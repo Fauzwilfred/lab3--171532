@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Join Us</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="form-validation.js"></script>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="join.html">Join Us</a>
+  </nav>
+
+  <header>
+    <h1>Become a Member</h1>
+    <p>Fill the form below to become a proud member of our club.</p>
+  </header>
+
+  <section>
+    <form id="joinForm">
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="account">Account Type:</label><br>
+      <select id="account" name="account" required>
+        <option value="">--Select Account--</option>
+        <option value="student">Student</option>
+        <option value="farmer">Farmer</option>
+        <option value="teacher">Teacher</option>
+      </select><br>
+
+      <label for="dob">Date of Birth:</label><br>
+      <input type="date" id="dob" name="dob" required><br>
+
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" required><br>
+
+      <label for="confirmPassword">Confirm Password:</label><br>
+      <input type="password" id="confirmPassword" name="confirmPassword" required><br>
+
+      <input type="submit" value="Join Club">
+    </form>
+  </section>
+</body>
+</html>
